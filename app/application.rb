@@ -5,6 +5,8 @@ class Application
     
     time = Time.now
     
+    binding.pry
+    
     if time.hour.to_i < 12
       resp.write "Good Morning!"
     elsif 
